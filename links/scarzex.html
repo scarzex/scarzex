@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт с черными кнопками</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('images/background.jpg'); /* Фон из папки */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 800px;
+        }
+        
+        h1 {
+            margin-top: 0;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            background-color: #000000; /* Черные кнопки */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #333333; /* Темно-серый при наведении */
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>𝓜𝓨 𝓛𝓘𝓝𝓚𝓢</h1>
+               <div class="buttons">
+            <a href="https://www.youtube.com/@scarzex" class="btn" target="_blank">𝒚𝒐𝒖𝒕𝒖𝒃𝒆</a>
+            <a href="http://tiktok.com/@scarz3x" class="btn" target="_blank">𝒕𝒊𝒌𝒕𝒐𝒌</a>
+            <a href="https://www.faceit.com/en/players/scarz3x/stats/cs2" class="btn" target="_blank">𝒇𝒂𝒄𝒆𝒊𝒕</a>
+            <a href="https://steamcommunity.com/tradeoffer/new/?partner=1192130706&token=l1DU93uR" class="btn" target="_blank">𝒕𝒓𝒂𝒅𝒆 <𝟑</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
